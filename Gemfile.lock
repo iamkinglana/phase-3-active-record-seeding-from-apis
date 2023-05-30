@@ -23,6 +23,7 @@ GEM
     diff-lcs (1.4.4)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
+    ffi (1.15.5)
     http-accept (1.7.0)
     http-cookie (1.0.4)
       domain_name (~> 0.5)
@@ -82,10 +83,12 @@ GEM
 
 PLATFORMS
   universal-darwin-20
+  x64-mingw-ucrt
 
 DEPENDENCIES
   activerecord (~> 6.1)
   database_cleaner
+  ffi
   pry
   rake
   require_all
